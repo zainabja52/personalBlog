@@ -1,16 +1,56 @@
-/*typography.css*/
-h1,
-h2,
-h3 {
+/* Typography Styles */
+h1, h2, h3 {
     font-family: 'Georgia', serif;
-    color: #333;
+    margin: 0.5em 0;
+    color: #664343;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #FEF9F2;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #795757; /* Dark red-brown, consistent with h1 */
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #795757; /* Dark red-brown, consistent with h1 and h2 */
 }
 
 p {
     font-size: 1rem;
     line-height: 1.5;
+    color: #664343; /* Dark red-brown text color, similar to headers */
+}
+
+p b {
+    font-weight: bold;
+}
+
+p em {
+    font-style: italic;
+}
+
+p u {
+    text-decoration: underline;
+}
+
+a {
+    color: #789DBC; /* Link color, using the lighter blue tone */
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+blockquote {
+    border-left: 4px solid #789DBC; /* Lighter blue for blockquote border */
+    padding: 0.5em 10px;
+    margin: 1em 0;
+    color: #664343; /* Dark red-brown text color for readability */
+    font-style: italic;
 }
