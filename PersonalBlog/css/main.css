@@ -23,6 +23,8 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -51,7 +53,7 @@ footer {
     color: #FEF9F2;
     text-align: center;
     padding: 1em;
-    position: relative;
+    position: fixed;
     width: 100%;
     bottom: 0;
 }
