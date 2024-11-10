@@ -1,0 +1,94 @@
+@import url('typography.css');
+@import url('animations.css');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF; /* Cream background */
+    color: #664343; /* Dark red-brown text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #795757; /* Dark red-brown */
+    color: #FFF0D1; /* Cream text */
+    padding: 1em 2em;
+    text-align: center;
+    display: flex; /* Make the header use Flexbox */
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center; /* Align items in the center horizontally */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFF0D1;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 40px auto; /* Increase margin to provide more space */
+    background-color: #FFF0D1; /* White background for content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow around the article */
+    border-radius: 8px; /* Rounded corners */
+}
+
+article {
+    padding: 20px;
+    color: #664343;
+}
+
+footer {
+    background-color: #795757;
+    color: #FFF0D1;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+h1 {
+    color: #FFF0D1;
+}
+
+h2,
+h3 {
+    color: #664343;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0.5em 0;
+}
+
+.back-link a {
+    color: #FFF0D1;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+/* Ensuring that the content can scroll under the footer */
+@media (min-height: 800px) {
+    body {
+        padding-bottom: 50px; /* Footer height */
+    }
+}

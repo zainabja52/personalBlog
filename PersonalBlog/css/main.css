@@ -1,0 +1,57 @@
+@import url('layout.css');
+@import url('typography.css');
+@import url('animations.css');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEF9F2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #789DBC;
+    color: #FEF9F2;
+    padding: 1em;
+    text-align: center;
+    display: flex; /* Make the header use Flexbox */
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center; /* Align items in the center horizontally */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #FEF9F2;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+article {
+    background-color: #B9E5E8;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #789DBC;
+    color: #FEF9F2;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
